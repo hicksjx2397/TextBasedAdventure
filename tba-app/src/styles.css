@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+              font-family: 'PixelfySans';
+              src: url('assets/fonts/PixelifySans-VariableFont_wght.ttf') format('truetype');
+              font-weight: normal;
+              font-style: normal;
+            }
+body {
+          font-family: 'PixelfySans', sans-serif; /* Add fallback fonts */
+}
